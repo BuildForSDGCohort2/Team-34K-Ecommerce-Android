@@ -30,7 +30,7 @@ import com.dev_app.buyforme.database.AppDb1
 import com.dev_app.buyforme.models.Products
 import com.dev_app.buyforme.viewModel.VModel
 import com.google.android.material.tabs.TabLayout
-import com.squareup.picasso.BuildConfig
+import com.dev_app.buyforme.BuildConfig
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.prod_ver_item.view.*
 import java.lang.Exception

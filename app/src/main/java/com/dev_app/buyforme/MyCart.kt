@@ -20,14 +20,14 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
-import com.dev_app.ecommercesales.database.AppDb1
-import com.dev_app.ecommercesales.models.Products
+import com.dev_app.buyforme.database.AppDb1
+import com.dev_app.buyforme.models.Products
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_my_cart.*
 import kotlinx.android.synthetic.main.series_item.*
 import kotlinx.android.synthetic.main.series_item.view.*
 import kotlin.properties.Delegates
-import com.dev_app.ecommercesales.DetailPagActivity
+
 
 class MyCart : AppCompatActivity() {
 
@@ -44,8 +44,8 @@ class MyCart : AppCompatActivity() {
         setContentView(R.layout.activity_my_cart)
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
 
-        val actionBar = supportActionBar
-        actionBar?.setDisplayHomeAsUpEnabled(true)
+//        val actionBar = supportActionBar
+//        actionBar?.setDisplayHomeAsUpEnabled(true)
 
         recyclerView = findViewById(R.id.cart_recycler_view)
         val layoutManager1 = LinearLayoutManager(this@MyCart, LinearLayoutManager.VERTICAL, false)

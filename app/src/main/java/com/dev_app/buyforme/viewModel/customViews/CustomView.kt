@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.dev_app.ecommercesales.R
+import com.dev_app.buyforme.R
 import kotlinx.android.synthetic.main.activity_detail_page.view.*
 
 class CustomView (context: Context, attrs: AttributeSet) : LinearLayout(context, attrs) {
